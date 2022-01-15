@@ -100,9 +100,11 @@ section#banner {
     margin-left: 45px;
     margin-top: -51px;
     width: 75%;
+    
+}
+.banner-right-img img:hover{
     animation:imganim 4s linear infinite;
 }
-
 @keyframes imganim {
     0%,100%{
         transform: translateY(-40px);
