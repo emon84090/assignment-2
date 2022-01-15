@@ -93,6 +93,7 @@ section#banner {
     border: none;
     font-size: 15px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .banner-right-img img {
@@ -149,6 +150,18 @@ section#banner {
 .rating-icon i {
     font-size: 14px;
     color: orange;
+}
+.see-more-text {
+    text-align: right;
+    margin-top: 40px;
+    color: var(--main-color);
+}
+.see-more-text i{
+    margin-left: 3px;
+}
+.see-more-text span{
+    font-weight: bold;
+    text-transform: capitalize;
 }
 /* collection end */
 
