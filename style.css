@@ -7,3 +7,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --main-color:#E02C6D;
+    --banner-text-color:#3A3A3A;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+
+/* header start */
+.logo a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27px;
+    color: var(--banner-text-color);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 12px;
+    line-height: 80px;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    color:var(--banner-text-color);
+    font-size: 17px;
+}
+
+/* header end */
+
+/* banner start */
+/* banner start */
